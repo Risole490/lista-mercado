@@ -105,7 +105,6 @@ strong {
     justify-content: center;
     align-items: center;
     padding: 0.2em;
-    width: 28px;
     font-size: 30px;
     border: 3px solid var(--cor-primaria);
     border-radius: 0.5em;
