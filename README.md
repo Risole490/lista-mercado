@@ -8,3 +8,7 @@ Um site construído para gerenciar itens de compra no mercado.
 3. Para atualizar a quantdade de um item, basta inserir seu nome e a quantidade nova nos campos iniciais e clicar em 'Adicionar'. </br>
 4. Para excluir um item, basta clicar no botão vermehlho "x" e o item será excluído. </br>
 5. Utiliza o localStorage para armazenar os dados adicionados e também é atualizado quando algum item é removido.
+
+<h2>Em breve</h2>
+<hr>
+1. Responsividade para dispositivos mobile.
