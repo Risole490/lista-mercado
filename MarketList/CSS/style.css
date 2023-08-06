@@ -1,0 +1,128 @@
+:root {
+    --fonte-principal: 'REM', sans-serif;
+    --fonte-secundaria: 'Zilla Slab', serif;
+    --cor-fundo: #d8e2dc;
+    --cor-primaria: #353535;
+    --cor-secundaria: #ffad03;
+    --cor-fonte: var(--cor-fonte);
+}
+
+.conteudo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: 5px;
+    background-color: var(--cor-fundo);
+}
+
+.main-title {
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+}
+
+.principal {
+    padding: 0.5em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5em;
+    font-family: var(--fonte-secundaria);
+}
+
+.carrinho {
+    width: 47%;
+}
+
+.carrinho-img {
+    width: 100%;
+}
+
+.adicionar {
+    display: flex;
+    width: fit-content;
+    align-self: center;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.3em;
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.adicionar label {
+    font-size: 22px;
+}
+
+.adicionar input:not(.cadastrar){
+    padding: 0.7em;
+}
+
+.cadastrar {
+    padding: 0.5em;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 0.7em;
+    border: 2px solid var(--cor-primaria);
+    font-family: var(--fonte-principal);
+}
+
+.lista {
+    font-family: var(--fonte-secundaria);
+    width: 25%;
+    border: 5px solid var(--cor-primaria);
+    background-color: #4361ee;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    row-gap: 0.5em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista_title {
+    font-size: 30px;
+    text-align: center;
+    color: var(--cor-fonte);
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-size: 22px;
+}
+
+strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em;
+    width: 28px;
+    font-size: 30px;
+    border: 3px solid var(--cor-primaria);
+    border-radius: 0.5em;
+}
+
+button {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0.5em;
+    border-radius: 2em;
+    background-color: #ef233c;
+    border: none;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
