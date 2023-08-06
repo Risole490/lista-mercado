@@ -4,7 +4,7 @@
     --cor-fundo: #d8e2dc;
     --cor-primaria: #353535;
     --cor-secundaria: #ffad03;
-    --cor-fonte: var(--cor-fonte);
+    --cor-fonte: black;
 }
 
 .conteudo {
@@ -124,4 +124,8 @@ button {
 
 button:hover {
     transform: scale(1.2);
+}
+
+footer {
+    background-color: var(-cor-fundo);
 }
