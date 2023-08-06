@@ -127,5 +127,5 @@ button:hover {
 }
 
 footer {
-    background-color: var(-cor-fundo);
+    background-color: var(--cor-fundo);
 }
